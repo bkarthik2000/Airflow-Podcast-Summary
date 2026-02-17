@@ -39,6 +39,4 @@ To follow this project, please install the following locally:
     * pydub
 
 
-## Data
 
-We'll download the data we need during this project, including a language model for vosk, and podcast episodes. 
