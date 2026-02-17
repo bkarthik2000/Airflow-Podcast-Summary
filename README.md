@@ -1,8 +1,8 @@
 # Project Overview
 
-In this project, we'll create a data pipeline using Airflow.  The pipeline will download podcast episodes and automatically transcribe them using speech recognition.  We'll store our results in a SQLite database that we can easily query.
+In this project, I had create a data pipeline using Airflow.  The pipeline will download podcast episodes and automatically transcribe them using speech recognition.  We'll store our results in a SQLite database that we can easily query.
 
-We have alternative tech stacks to do this project but we prefer Airflow for following reasons:
+We have alternative tech stacks to do this project but I prefer Airflow for following reasons:
 * We can schedule the project to run daily
 * Each task can run independently, and we get error logs
 * We can easily parallelize tasks and run in the cloud if we want to
@@ -26,7 +26,7 @@ File overview:
 
 ## Installation
 
-To follow this project, please install the following locally:
+To execute this project, please install the following locally:
 
 * Airflow 2.3+
 * Python 3.8+
